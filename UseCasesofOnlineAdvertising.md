@@ -18,12 +18,16 @@ The web advertising ecosystem is a collaboration among many parties.  Common des
 * **Publisher:**
   Publishers produce web pages that users visit.  Most of the time, you can think of the publisher as the first party (though aggregation and syndication sites can add a little confusion).
   
-  Since we're discussing the web ads ecosystem, the publisher web pages we care about will generally have ads on them.  That means you can think of publishers as creating web pages containing _empty rectangles_ — rectangles which they want to sell to advertisers.  Since publishers sell empty rectangles, they are sometimes referred to as the _sell side_ or the _supply side_ of the market.  The empty rectangles themselves are sometimes referred to as _ad slots_ or _impressions_, or as _inventory_ when thinking of them as something being sold.
+  Since we're discussing the web ads ecosystem, the publisher web pages we care about will generally have ads on them.  That means you can think of publishers as creating web pages containing _empty rectangles_ — rectangles which they want to sell to advertisers.  Since publishers sell empty rectangles, they are referred to as the _sell side_ or the _supply side_ of the market.  The empty rectangles themselves are sometimes referred to as _ad slots_, or as _inventory_ when thinking of them as something being sold.
   
   Publishers generally have a lot of control over their content, but the amount of control they have over the advertisements on their pages varies a lot; see "Publisher Ad Platform" below.
   
 * **Advertiser:**
-  Advertisers want to show some message to people visiting publishers' web sites.
+  Advertisers want to show some message to people visiting publishers' web sites, and are willing to pay money to publishers to do so.  Their messages are the ads, also called _creatives_, and can include text, images, video, JavaScript, and so on — all the capabilities of a web page.  Creatives  usually fit into a standard-sized rectangle, meant to fill in one of the empty rectangles on a publisher page.
+  
+  Since advertisers buy rectangle-shaped real estate to put their ads in, they are referred to as the _buy side_ or the _demand side_ of the market.  When a specific ad creative appears on a user's load of a publisher web page, the event is called an _impression_.
+  
+  The advertiser might pay by the impression, or might only pay if a user actually clicks on the ad.  Many advertisers have some goal beyond the impression or click — they might want the user to sign up for their newsletter, buy something on their web site, etc.  Those later target events are called _conversions_.
 
 
 ## Ad Call with Single Market
