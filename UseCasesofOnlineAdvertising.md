@@ -3,14 +3,30 @@
 Discussion Paper for the  
 W3C Advertising Business Group
 
-Wendell Baker <[wbaker@verizonmedia.com](mailto:wbaker@verizonmedia.com)\>  
-Initial draft, 2019-03-05
+Contibutors:
+* Wendell Baker <[wbaker@verizonmedia.com](mailto:wbaker@verizonmedia.com)\>  
+* Michael Kleber <[kleber@google.com](mailto:kleber@google.com)\>
+
+Draft, updated 2019-04-16
 
 This document describes event sequences supporting modern online advertising. Many details are elided. There is a significant amount of tutorial literature available which can be used to fill in the details and omissions that are necessarily present in this summary document.
 
+## Dramatis Personae
+
+The web advertising ecosystem is a collaboration among many parties.  Common designations like "third-party" can often be ambiguous when a single pageload involves interactions with servers run by many organizations with different roles, needs, and capabilities.  So we begin with a list of types of parties and what roles they play.
+
+* **Publisher:**
+  Publishers produce web pages that users visit.  Most of the time, you can think of the publisher as the first party (though aggregation and syndication sites can add a little confusion).
+  
+  Since we're discussing the web ads ecosystem, the publisher web pages we care about will generally have ads on them.  That means you can think of publishers as creating web pages containing _empty rectangles_ — rectangles which they want to sell to advertisers.  Since publishers sell empty rectangles, they are sometimes referred to as the _sell side_ or the _supply side_ of the market.  The empty rectangles themselves are sometimes referred to as _ad slots_ or _impressions_, or as _inventory_ when thinking of them as something being sold.
+  
+  Publishers generally have a lot of control over their content, but the amount of control they have over the advertisements on their pages varies a lot; see "Publisher Ad Platform" below.
+  
+* **Advertiser:**
+  Advertisers want to show some message to people visiting publishers' web sites.
+
+
 ## Ad Call with Single Market
-
-
 
 ![Event Flow Diagram](https://w3c.github.io/web-advertising/UseCasesofOnlineAdvertising/image1.png)
 
